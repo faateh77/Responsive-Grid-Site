@@ -1,0 +1,150 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    background-image: url('code.jpg');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size:100% 100%;
+padding: 0px;
+margin:0px;
+   height: 450px;
+   width:100%;
+   
+}
+button{
+    color:white;
+    background-color: rgb(54, 52, 52);
+border: 1px solid rgb(175, 175, 175);
+height: 50px;
+width:130px;
+margin-left: 630px;
+margin-top: 25px;
+
+font-size: 16px; 
+}
+button:hover{
+    background-color:white;
+    color:black;
+}
+.box{ 
+    border: 1px solid black;
+    height: 160px;
+    width:100%;
+    background-color: gainsboro;
+   
+}
+.box-flex{
+ display: flex;
+ flex-direction: row;
+   
+}
+.box-flex > div{
+    text-align: center;
+    padding-left:150px;
+    color: #333;
+  
+  
+    font-size: 20px;
+  padding-top: 25px;
+
+}
+.services{
+height:400px;
+width:1350px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px ;
+    grid-column-gap: 20px;
+    background-color: #000000;
+    padding-left: 270px;
+   padding-top: 70px;
+   padding-bottom: 100px;
+     grid-template-rows: 160px 300px;
+  }
+.services > div{
+    background-color: white;
+    text-align: center;
+   
+   
+    
+}
+
+  .belowcards{
+    height: 300px;
+    width:1350px;
+    background-color: #fff;
+    
+  }
+  .twoboxes{
+display: flex;
+flex-direction: row;
+  }
+  .one{
+      background-color:  #2196F3;
+      height: 250px;
+      width:750px;
+   
+  }
+  .two{
+   
+        background-color:  rgb(65, 65, 65);
+        height: 250px;
+        width:750px;
+    }
+  
+    
+.item1{
+    background-image: url('web.jpg');
+background-size: 100% 100%;
+
+  height:160px;
+        width:100%;
+}
+    
+.item2{
+    background-image: url('app.jpg');
+background-size: 100% 100%;
+
+  height:160px;
+        width:100%;
+}
+    
+.item3{
+    background-image: url('tech.jpg');
+background-size: 100% 100%;
+
+  height:160px;
+        width:100%;
+}
+.item4{
+    padding: 30px;
+   font-size: 25px;
+    text-align: center;
+}
+.item5{
+    padding: 30px;
+    font-size: 25px;
+    text-align: center;
+}
+.item6{
+    padding: 30px;
+    font-size: 25px;
+    text-align: center;
+}
+.footer{
+    height:80px;
+    width:1350px;
+   font-size: 20px;
+    background-color: black;
+    color:white;
+ 
+    padding-left: 150px;
+padding-top: 25px;
+}
+a{
+    color:#2196F3; ;
+}
